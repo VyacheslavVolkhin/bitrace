@@ -1,28 +1,6 @@
 /* ----------------------------------- *\
 			forms elements styles
 \* ----------------------------------- */
-textarea,
-input[type="text"],
-input[type="password"],
-input[type="email"],
-input[type="number"],
-input[type="range"],
-input[type="search"],
-input[type="tel"],
-input[type="url"] {
-	
-}
-textarea {
-	height: 100px;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	resize: none;
-}
-.btn,
-button,
-input[type="submit"] {
-	
-}
 .frm-row,
 .frm-field,
 .frm-row-submit {
@@ -31,11 +9,58 @@ input[type="submit"] {
 	position: relative;
 	line-height: 1;
 }
+.frm-field {
+    display: block;
+    width: 100%;
+}
 .frm-select {
 	position: relative;
 	display: block;
 	overflow: hidden;
     line-height: 1;
+    &:not(.inp-light) {
+        input {
+            &:checked {
+                &~label {
+                    &:hover {
+                        &:before {
+                            border-color: #dadada;
+                            background-color: var(--clr-border);
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &.inp-light {
+        label {
+            &:before {
+                border-color: #fff;
+            }
+            &:hover {
+                &:before {
+                    border-color: #dadada !important;
+                    background-color: #dadada !important;
+                }
+                &:after {
+                    filter: brightness(0) invert(1) !important;
+                }
+            }
+        }
+        input {
+            &:checked {
+                &~label {
+                    &:before {
+                        background-color: #fff;
+                        border-color: #fff;
+                    }
+                    &:after {
+                        filter: none;
+                    }
+                }
+            }
+        }
+    }
 	input {
 		display: block;
 		position: absolute;
@@ -44,15 +69,101 @@ input[type="submit"] {
 		opacity: 0;
 		margin: 0;
 		padding: 0;
+        &:checked {
+            &~label {
+                &:before {
+                    border-color: var(--clr-att);
+                    background-color: var(--clr-att);
+                }
+                &:after {
+                    opacity: 1;
+                }
+            }
+        }
 	}
 	label {
 		display: block;
 		position: relative;
 		cursor: pointer;
+        line-height: 20px;
+        min-height: 20px;
+        padding-left: 36px;
         &:before, &:after {
             content: "";
             display: block;
             position: absolute;
+            width: 20px;
+            height: 20px;
+            border-radius: 5px;
+            border: 1px solid var(--clr-border);
+            top: 10px;
+            left: 10px;
+            margin: -10px 0 0 -10px;
+            transition: all ease 0.2s;
+        }
+        &:after {
+            border: none;
+            background: url(../img/icons/chk.svg) center no-repeat;
+            background-size: 12px auto;
+            filter: brightness(0) invert(1);
+            opacity: 0;
+        }
+        &:hover {
+            &:before {
+                border-color: #dadada;
+                background-color: var(--clr-border);
+            }
         }
 	}
+}
+
+.frm-main-subscribe {
+    display: block;
+    position: relative;
+    background: #556374;
+    border-radius: 5px;
+    padding: 42px 24px 42px 24px;
+    text-align: center;
+    .frm-logo-wrap {
+        width: 176px;
+        max-width: 100%;
+        margin: 0 auto 20px auto;
+    }
+    .frm-title {
+        font-weight: bold;
+        color: #fff;
+        font-size: 14px;
+        line-height: 16px;
+        margin-bottom: 15px;
+    }
+    .frm-row {
+        display: block;
+        margin: 0 auto;
+        max-width: 190px;
+    }
+    .frm-field {
+        margin-bottom: 15px;
+    }
+    .frm-row-submit {
+        .frm-field {
+            margin: 0;
+        }
+    }
+    .form-input {
+        color: #fff;
+        &.inp-light {
+            color: #fff;
+        }   
+    }
+}
+body {
+    .ui-tooltip {
+        font-size: 12px;
+        line-height: 14px;
+        border: 1px solid var(--clr-border);
+        background-color: #fff;
+        color: var(--clr-light);
+        padding: 10px;
+        border-radius: 5px;
+    }
 }
