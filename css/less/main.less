@@ -66,6 +66,27 @@ p, ul, ol, table, blockquote, .bq-text {
         left: 0;
     }
 }
+.list-chk {
+    li {
+        margin-bottom: 15px;
+        padding-left: 39px;
+        &:before {
+            content: "";
+            display: block;
+            width: 24px;
+            height: 24px;
+            position: absolute;
+            background: url(../img/icons/check.svg) center no-repeat;
+            background-size: 100% auto;
+            top: 10px;
+            left: 0;
+            margin-top: -12px;
+        }
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+}
 .list-check {
     li {
         margin-bottom: 25px;
@@ -197,7 +218,8 @@ h6, .h6-title {
     line-height: (28/24);
 }
 .h3-title, h3 {
-    
+    font-size: 20px;
+    line-height: (24/20);
 }
 .page-title {
     font-weight: 400;

@@ -320,6 +320,24 @@ select.form-input:required:invalid {
         }
     }
 }
+.btn-action-back {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0 0 0 26px;
+    position: relative;
+    &:before {
+        content: "";
+        display: block;
+        width: 24px;
+        height: 24px;
+        position: absolute;
+        background: url(../img/icons/arrow-back.svg) center no-repeat;
+        background-size: 100% auto;
+        top: 50%;
+        left: 0;
+        margin-top: -12px;
+    }
+}
 .btn-action-go,
 .btn-action-more {
     display: inline-block;
