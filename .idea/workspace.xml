@@ -6,41 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="33c1e436-f245-4d66-b94e-65d1b59486dd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02.html" beforeDir="false" afterPath="$PROJECT_DIR$/02.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03.html" beforeDir="false" afterPath="$PROJECT_DIR$/03.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04.html" beforeDir="false" afterPath="$PROJECT_DIR$/04.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05.html" beforeDir="false" afterPath="$PROJECT_DIR$/05.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/06.html" beforeDir="false" afterPath="$PROJECT_DIR$/06.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/07.html" beforeDir="false" afterPath="$PROJECT_DIR$/07.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/08.html" beforeDir="false" afterPath="$PROJECT_DIR$/08.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09.html" beforeDir="false" afterPath="$PROJECT_DIR$/09.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10.html" beforeDir="false" afterPath="$PROJECT_DIR$/10.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/11.html" beforeDir="false" afterPath="$PROJECT_DIR$/11.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/12.html" beforeDir="false" afterPath="$PROJECT_DIR$/12.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/13.html" beforeDir="false" afterPath="$PROJECT_DIR$/13.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/14.html" beforeDir="false" afterPath="$PROJECT_DIR$/14.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/15.html" beforeDir="false" afterPath="$PROJECT_DIR$/15.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/16.html" beforeDir="false" afterPath="$PROJECT_DIR$/16.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/17.html" beforeDir="false" afterPath="$PROJECT_DIR$/17.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/18.html" beforeDir="false" afterPath="$PROJECT_DIR$/18.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/19.html" beforeDir="false" afterPath="$PROJECT_DIR$/19.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/20.html" beforeDir="false" afterPath="$PROJECT_DIR$/20.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/21.html" beforeDir="false" afterPath="$PROJECT_DIR$/21.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_html/05.html" beforeDir="false" afterPath="$PROJECT_DIR$/_html/05.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_html/12.html" beforeDir="false" afterPath="$PROJECT_DIR$/_html/12.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_html/13.html" beforeDir="false" afterPath="$PROJECT_DIR$/_html/13.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_html/14.html" beforeDir="false" afterPath="$PROJECT_DIR$/_html/14.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_html/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/header.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/less/content.less" beforeDir="false" afterPath="$PROJECT_DIR$/css/less/content.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/less/forms.less" beforeDir="false" afterPath="$PROJECT_DIR$/css/less/forms.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/less/structura.less" beforeDir="false" afterPath="$PROJECT_DIR$/css/less/structura.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/bg04.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/bg04.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/message-d.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/message-d.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/main.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,7 +85,7 @@
       <workItem from="1675218032397" duration="14000" />
       <workItem from="1675227217561" duration="40808000" />
       <workItem from="1675572372055" duration="20173000" />
-      <workItem from="1676044840802" duration="2142000" />
+      <workItem from="1676044840802" duration="2892000" />
     </task>
     <servers />
   </component>

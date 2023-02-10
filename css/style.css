@@ -6140,7 +6140,7 @@ body.popup-open {
   }
   .page-message:before {
     background: url(../img/message-d.jpg) center no-repeat;
-    background-size: auto 100%;
+    background-size: cover;
   }
   .page-message .message-box {
     min-height: 437px;
