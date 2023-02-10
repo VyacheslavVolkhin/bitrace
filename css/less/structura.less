@@ -313,6 +313,7 @@ html {
             color: #fff;
             float: left;
         }
+        
     }
     .popup-menu-wrap {
         .popup-content-block {
@@ -676,6 +677,15 @@ html {
         }
         .search-wrap {
             flex-shrink: 0;
+            position: relative;
+            .popup-content-block {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 300px;
+                z-index: 10;
+                display: none;
+            }
         }
         .header-sep {
             flex: 1;
